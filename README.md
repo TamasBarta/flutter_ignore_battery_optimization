@@ -4,13 +4,11 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+用来安卓忽略电池优化的插件
 
 # flutter_ignore_battery_optimization
+
+### 1.IgnoreBatteryOptimization.isIgnoringBatteryOptimizations("app packageName"),判断是否已加入
+### 2.IgnoreBatteryOptimization.openIgnoringBatteryOptimizations("app packageName"),去加入
+
+### 注意,安卓版本必须>=23
